@@ -33,11 +33,9 @@ this.productList.splice(event,1);
         if(this.productList[i][0]==1){
           
         console.log("deleting "+ this.productList[i][1])
-       
+
         this.productList.splice(i,1);
         i--;
-
-
         }
      }
   }  
